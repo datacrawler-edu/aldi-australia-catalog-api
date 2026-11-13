@@ -1,5 +1,7 @@
 # Input reference
 
+The form shows collection mode, search text and maximum results first. **Store and search options** and **Exact product lookup by SKU** are separate collapsible sections; neither is needed for a basic national keyword search. Mode labels explain their requirements, while the API continues to use the values below. Optional fields may be omitted from API requests.
+
 | Field | Default | Meaning |
 |---|---|---|
 | mode | search | search, products, categories, promotions, stores or suggestions. |

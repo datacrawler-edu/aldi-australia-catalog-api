@@ -45,7 +45,7 @@ Selected fields from one real product are shown below. [The JSON sample](data/sa
 
 ## Run without code
 
-Open [the Actor](https://apify.com/datascraperes/aldi-australia-catalog-scraper?fpr=edudata), choose search mode in Input, enter milk and use maxItems=5. Click Start, inspect the Dataset and the run summary, then export JSON or CSV. A successful run status can still mean that input needs correction or collection is incomplete: check complete in SUMMARY. See [the no-code guide](docs/no-code-guide.md).
+Open [the Actor](https://apify.com/datascraperes/aldi-australia-catalog-scraper?fpr=edudata), keep **Search products** selected, enter milk and set **Maximum results** to 5. Leave both collapsible sections untouched for this basic search. Click Start, inspect the Dataset and the run summary, then export JSON or CSV. A successful run status can still mean that input needs correction or collection is incomplete: check complete in SUMMARY. See [the no-code guide](docs/no-code-guide.md).
 
 ## Try it with Apify's free plan
 
