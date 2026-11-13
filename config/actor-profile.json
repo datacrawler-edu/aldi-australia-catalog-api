@@ -1,0 +1,144 @@
+{
+  "repository": {
+    "name": "aldi-australia-catalog-api",
+    "description": "ALDI Australia product-data API examples for Python, JavaScript and cURL: keyword batches, safe run handling and CSV exports with Apify.",
+    "homepage": "https://apify.com/datascraperes/aldi-australia-catalog-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "ALDI Australia Catalog Scraper | Prices & Stores",
+    "id": "datascraperes/aldi-australia-catalog-scraper",
+    "storeUrl": "https://apify.com/datascraperes/aldi-australia-catalog-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~aldi-australia-catalog-scraper",
+    "description": "Hosted ALDI Australia products, displayed prices, optional details, categories, promotions, stores and suggestions."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/aldi-australia-catalog-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "query",
+      "inputLabel": "Search text",
+      "inputSummary": "Choose search mode, enter a product keyword such as milk and set maxItems to 5.",
+      "exportFormats": [
+        "JSON",
+        "CSV"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "ALDI Australia product API examples",
+    "secondaryKeywords": [
+      "ALDI product prices Python",
+      "ALDI Australia CSV export",
+      "ALDI catalog keyword batches"
+    ],
+    "topics": [
+      "apify",
+      "aldi",
+      "australia",
+      "python",
+      "web-scraping",
+      "retail-data"
+    ],
+    "longTailIntents": [
+      "Export ALDI Australia product prices to CSV",
+      "Collect several ALDI grocery keywords with Python",
+      "Inspect incomplete ALDI catalog runs before exporting"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/collect_products.py",
+      "examples/python/batch_keywords.py",
+      "examples/python/export_prices_csv.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Native PAY_PER_EVENT: one unique saved result is one event; no start or detail fee. Plan discounts apply.",
+    "unit": "one unique Dataset result",
+    "price": "FREE $1.00; BRONZE $0.90; SILVER $0.80; GOLD/PLATINUM/DIAMOND $0.75 per 1,000 results."
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/aldi-australia-catalog-api",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/aldi-australia-catalog-api",
+    "githubToActorUrl": "https://apify.com/datascraperes/aldi-australia-catalog-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v0.1.0",
+      "title": "ALDI Australia hosted API integration examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/aldi-australia-catalog-api",
+      "ALDI Australia product API examples"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/aldi-australia-catalog-api/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/aldi-australia-catalog-scraper?fpr=edudata"
+  }
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "000000000538441002",
+    "type": "product",
+    "data": {
+      "sku": "000000000538441002",
+      "name": "Milk Mouse - Milk Chocolate 168g",
+      "brandName": "CHOCEUR",
+      "urlSlugText": "choceur-milk-mouse-milk-chocolate-168g",
+      "urlSlugTextAlternatives": [],
+      "ageRestriction": null,
+      "alcohol": null,
+      "discontinued": false,
+      "discontinuedNote": null,
+      "notForSale": true,
+      "notForSaleReason": null,
+      "quantityMin": 1,
+      "quantityMax": 99,
+      "quantityInterval": 1,
+      "quantityDefault": 1,
+      "quantityUnit": "ea",
+      "weightType": "0",
+      "sellingSize": "168 g",
+      "energyClass": null,
+      "onSaleDateDisplay": null,
+      "onSaleDate": null,
+      "isAbstract": false,
+      "abstractSku": "000000000000538441",
+      "isDropship": false,
+      "sellingUnitDisplay": null,
+      "contentUnit": "g",
+      "price": {
+        "amount": 399,
+        "amountRelevant": 399,
+        "amountRelevantDisplay": "$3.99",
+        "bottleDeposit": 0,
+        "bottleDepositDisplay": "$0.00",
+        "comparison": 238,
+        "comparisonDisplay": "$2.38 per 100 g",
+        "currencyCode": "AUD",
+        "currencySymbol": "$",
+        "perUnit": null,
+        "perUnitDisplay": null,
+        "wasPriceDisplay": null,
+        "additionalInfo": null,
+        "savingsDisplay": null,
+        "bottleDepositType": null,
+        "feeText": null
+      },
+      "countryExtensions": null,
+      "categories": [
+        {
+          "id": "970000000",
+          "name": "Pantry",
+          "urlSlugText": "pantry"
+        },
+        {
+          "id": "1111111181",
+          "name": "Confectionery",
+          "urlSlugText": "pantry/confectionery"
+        }
+      ],
+      "assets": [
+        {
+          "url": "https://dm.apac.cms.aldi.cx/is/image/aldiprodapac/product/jpg/scaleWidth/{width}/d0097d9d-25d6-4cd1-b1dd-1ea5f7a154ba/{slug}",
+          "maxWidth": 1500,
+          "maxHeight": 1500,
+          "mimeType": "image/*",
+          "assetType": "FR01",
+          "alt": null,
+          "displayName": null
+        },
+        {
+          "url": "https://dm.apac.cms.aldi.cx/is/image/aldiprodapac/product/jpg/scaleWidth/{width}/c63ec914-a16e-452b-9058-3dbbc51be707/{slug}",
+          "maxWidth": 1500,
+          "maxHeight": 1500,
+          "mimeType": "image/*",
+          "assetType": "FR02",
+          "alt": null,
+          "displayName": null
+        },
+        {
+          "url": "https://dm.apac.cms.aldi.cx/is/image/aldiprodapac/product/jpg/scaleWidth/{width}/5331a237-663d-4f78-b427-367f698ae301/{slug}",
+          "maxWidth": 1500,
+          "maxHeight": 1500,
+          "mimeType": "image/*",
+          "assetType": "NU01",
+          "alt": null,
+          "displayName": null
+        }
+      ],
+      "badges": []
+    },
+    "scrapedAt": "2026-11-13T14:58:59.905777+00:00"
+  }
+]
